@@ -1,4 +1,4 @@
-# Credit Score Modelling 
+# Credit Scorecard Modelling 
 <p align="center">
     <img src="https://www.simmonsbank.com/siteassets/content-hub/learning-center/credit-score-image.jpg" alt="Credit Score Image" height="500">
     <p align="center">
