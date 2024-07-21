@@ -1,0 +1,80 @@
+Variable,Bin,Points
+person_income,"(-inf, 22840.00)",0.0
+person_income,"[22840.00, 34990.00)",26.221544952055353
+person_income,"[34990.00, 39930.00)",39.53357252721076
+person_income,"[39930.00, 59982.00)",47.464580410555186
+person_income,"[59982.00, 79942.50)",58.28645250841459
+person_income,"[79942.50, 89325.00)",68.27005902396127
+person_income,"[89325.00, inf)",74.3402186126977
+person_income,Special,46.614775226346964
+person_income,Missing,46.614775226346964
+person_home_ownership,['OWN'],48.02464714502364
+person_home_ownership,['MORTGAGE'],31.338391597741925
+person_home_ownership,['RENT' 'OTHER'],0.0
+person_home_ownership,Special,13.55164810831701
+person_home_ownership,Missing,13.55164810831701
+person_emp_length,"(-inf, 0.50)",0.0
+person_emp_length,"[0.50, 1.50)",0.8407466668338017
+person_emp_length,"[1.50, 2.50)",1.0369443777861491
+person_emp_length,"[2.50, 4.50)",3.930334994534462
+person_emp_length,"[4.50, 5.50)",5.108914195082164
+person_emp_length,"[5.50, 7.50)",5.214434557191218
+person_emp_length,"[7.50, 11.50)",5.8373254665311975
+person_emp_length,"[11.50, inf)",7.458419228369131
+person_emp_length,Special,3.301745794217325
+person_emp_length,Missing,3.301745794217325
+loan_intent,['VENTURE'],33.211879130122064
+loan_intent,['EDUCATION'],25.784245148624755
+loan_intent,['PERSONAL'],18.407014250268737
+loan_intent,['HOMEIMPROVEMENT'],4.120938928779495
+loan_intent,['MEDICAL'],1.9397336002574477
+loan_intent,['DEBTCONSOLIDATION'],0.0
+loan_intent,Special,13.788376298524796
+loan_intent,Missing,13.788376298524796
+loan_grade,['A'],89.29459120134739
+loan_grade,['B'],70.27888410467521
+loan_grade,['C'],61.7769939000297
+loan_grade,['D' 'E' 'F' 'G'],0.0
+loan_grade,Special,58.657131145940504
+loan_grade,Missing,58.657131145940504
+loan_amnt,"(-inf, 3475.00)",11.99323271358206
+loan_amnt,"[3475.00, 5062.50)",14.028526217466137
+loan_amnt,"[5062.50, 6087.50)",19.021063693986548
+loan_amnt,"[6087.50, 7387.50)",17.490786224913563
+loan_amnt,"[7387.50, 8112.50)",15.569868175287624
+loan_amnt,"[8112.50, 10587.50)",14.583777626719645
+loan_amnt,"[10587.50, 14487.50)",11.819596729781168
+loan_amnt,"[14487.50, 18087.50)",7.349552648797648
+loan_amnt,"[18087.50, 22150.00)",3.1626997850006546
+loan_amnt,"[22150.00, inf)",0.0
+loan_amnt,Special,11.972256741729659
+loan_amnt,Missing,11.972256741729659
+loan_int_rate,"(-inf, 6.10)",9.246612728317004
+loan_int_rate,"[6.10, 7.50)",7.619173237724652
+loan_int_rate,"[7.50, 7.89)",7.3465271342074345
+loan_int_rate,"[7.89, 9.64)",6.902230145755858
+loan_int_rate,"[9.64, 11.27)",5.952468341190375
+loan_int_rate,"[11.27, 11.94)",5.769099370484454
+loan_int_rate,"[11.94, 12.72)",5.448459173403002
+loan_int_rate,"[12.72, 13.61)",4.949685998528565
+loan_int_rate,"[13.61, 14.37)",4.123448958759333
+loan_int_rate,"[14.37, 15.28)",1.730949454159088
+loan_int_rate,"[15.28, inf)",0.0
+loan_int_rate,Special,4.945177416971582
+loan_int_rate,Missing,4.945177416971582
+loan_percent_income,"(-inf, 0.05)",89.55285425999703
+loan_percent_income,"[0.05, 0.07)",83.32575796075412
+loan_percent_income,"[0.07, 0.13)",81.79879870852344
+loan_percent_income,"[0.13, 0.16)",78.71027124107157
+loan_percent_income,"[0.16, 0.18)",70.22487718220981
+loan_percent_income,"[0.18, 0.21)",68.49504401785701
+loan_percent_income,"[0.21, 0.25)",67.44009227674208
+loan_percent_income,"[0.25, 0.31)",57.35995560999486
+loan_percent_income,"[0.31, 0.36)",4.8072729968219505
+loan_percent_income,"[0.36, inf)",0.0
+loan_percent_income,Special,63.00855925880935
+loan_percent_income,Missing,63.00855925880935
+cb_person_default_on_file,['N'],0.0
+cb_person_default_on_file,['Y'],1.1204870995681588
+cb_person_default_on_file,Special,0.24212711823100364
+cb_person_default_on_file,Missing,0.24212711823100364
