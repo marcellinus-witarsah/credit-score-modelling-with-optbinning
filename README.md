@@ -1,10 +1,31 @@
-# credit-scorecard-modelling-with-optbinning
+# Credit Score Modelling 
+<p align="center">
+    <img src="https://www.simmonsbank.com/siteassets/content-hub/learning-center/credit-score-image.jpg" alt="Credit Score Image" height="500">
+    <p align="center">
+        Figure 1: Credit Score Illustration (<a href="https://www.simmonsbank.com/siteassets/content-hub/learning-center/credit-score-image.jpg">Source</a>).
+    </p>
+</p>
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+## Project Summary
+In this project, we developed a credit score model leveraging Logistic Regression and Weight of Evidence techniques. The scoring methodology is based on the "point to double the odds" approach, utilizing Logistic Regression parameters, Weight of Evidence, and specific user-defined constraints to assign credit points for based on each predictor variable.
 
-A short description of the project.
+## Project Scope
+The main objective is to create a reliable credit score model and develop a comprehensive credit scorecard.
+
+## Tools and Technologies
+The project is built using Python 3.10.13, with the following libraries and tools:
+1. `pandas` and `numpy` for data manipulation.
+2. `matplotlib` and `seaborn` for data visualization. 
+3. `optbinning` for calculating Weight of Evidence and Information Value.  
+4. `scikit-learn`, and `optbinning` for training and evaluation credit score model.
+
+## Installation and Setup
+To run this project locally, you can use [Anaconda](https://docs.anaconda.com/free/anaconda/install/) or [venv](https://virtualenv.pypa.io/en/latest/installation.html). Ensure your Python version is 3.10.13. Then, install the required libraries from the requirements.txt file:
+```bash
+  cd credit-scorecard-modelling
+  pip install -r requirements.txt
+```
+For a detailed explanation of the project, please visit my [Medium blog post](https://medium.com/@aw_marcell/credit-score-modelling-project-11504f7ab530).
 
 ## Project Organization
 
@@ -18,13 +39,9 @@ A short description of the project.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── docs               <- A default mkdocs project; see mkdocs.org for details
-│
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Contain notebooks for data exploration and scorecard modelling
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for credit_scorecard_modelling_with_optbinning
 │                         and configuration for tools like black
@@ -38,25 +55,5 @@ A short description of the project.
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── setup.cfg          <- Configuration file for flake8
-│
-└── credit_scorecard_modelling_with_optbinning                <- Source code for use in this project.
-    │
-    ├── __init__.py    <- Makes credit_scorecard_modelling_with_optbinning a Python module
-    │
-    ├── data           <- Scripts to download or generate data
-    │   └── make_dataset.py
-    │
-    ├── features       <- Scripts to turn raw data into features for modeling
-    │   └── build_features.py
-    │
-    ├── models         <- Scripts to train models and then use trained models to make
-    │   │                 predictions
-    │   ├── predict_model.py
-    │   └── train_model.py
-    │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations
-        └── visualize.py
 ```
-
 --------
-
