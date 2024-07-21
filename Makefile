@@ -3,7 +3,7 @@
 #################################################################################
 
 PROJECT_NAME = credit-scorecard-modelling-with-optbinning
-PYTHON_VERSION = 3.12
+PYTHON_VERSION = 3.12.4
 PYTHON_INTERPRETER = python
 
 #################################################################################
@@ -16,8 +16,6 @@ PYTHON_INTERPRETER = python
 requirements:
 	$(PYTHON_INTERPRETER) -m pip install -U pip
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
-	
-
 
 
 ## Delete all compiled Python files
@@ -39,16 +37,21 @@ format:
 	black --config pyproject.toml credit_scorecard_modelling_with_optbinning
 
 
-
-
 ## Set up python interpreter environment
 .PHONY: create_environment
 create_environment:
-	
 	conda create --name $(PROJECT_NAME) python=$(PYTHON_VERSION) -y
 	
 	@echo ">>> conda env created. Activate with:\nconda activate $(PROJECT_NAME)"
 	
+
+## Create a ipykernel
+.PHONY: create_ipykernel
+create_ipykernel:
+	$(PYTHON_INTERPRETER) -m pip install ipykernel
+	$(PYTHON_INTERPRETER) -m ipykernel install --user --name $(PROJECT_NAME) --display-name "$(PROJECT_NAME) (Python $(PYTHON_VERSION))"
+
+	@echo ">>> ipykernel created"
 
 
 
