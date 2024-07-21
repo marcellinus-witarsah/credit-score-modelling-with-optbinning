@@ -7,7 +7,7 @@
 </p>
 
 ## Project Summary
-In this project, we developed a credit score model leveraging Logistic Regression and Weight of Evidence techniques. The scoring methodology is based on the "point to double the odds" approach, utilizing Logistic Regression parameters, Weight of Evidence, and specific user-defined constraints to assign credit points for based on each predictor variable. Tools that will be used is `optbinning` which is a library for credit scorecard development.
+In this project, we developed a credit score model leveraging Logistic Regression and Weight of Evidence techniques. The scoring methodology is based on the "point to double the odds" approach, utilizing Logistic Regression parameters, Weight of Evidence, and specific user-defined constraints to assign credit points for based on each predictor variable. Tools that will be used is [optbinning](https://gnpalencia.org/optbinning/installation.html) which is a library for credit scorecard development.
 
 
 ## Project Scope
